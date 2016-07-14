@@ -1,0 +1,125 @@
+#shifts ul {
+	display: table;
+	list-style-type: none;
+	clear: both;
+	overfdlow: overlay;
+	padding: 0;
+	margin: 0;
+}
+
+#top-section{
+	float: left;
+}
+
+#mid-section{
+	clear:both;
+}
+
+#navigation{
+float: left;
+margin-right: 3em;
+}
+
+#navigation ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#message {
+	width: 64em;
+	word-wrap: break-word;
+}
+#message h1 {
+margin-top: 0;
+font-size: 1.5em;
+font-weight: normal;
+text-decoration: underline;
+}
+#main-content{
+float: left;
+padding: 1em;
+}
+
+#shifts ul li {
+	display: table-cell;
+
+	width: 8em;
+	height: 100%;
+	border-bottom: solid 1px #000000;
+}
+
+#shifts ul li.even {
+	background-color:#CCCCFF;
+}
+
+#shifts ul li.odd {
+	background-color:#9999CC;
+}
+
+#shifts ul li.evenEnd {
+	background-color:#CCCCFF;
+	border-right: solid 1px #000000;
+}
+
+#shifts ul li.oddEnd {
+	background-color:#9999CC;
+	border-right: solid 1px #000000;
+}
+
+#shifts ul li.evenUser {
+	background-color:#CCFFCC;
+}
+
+#shifts ul li.oddUser {
+	background-color:#99CC99;
+}
+
+#shifts ul li.oddEndUser {
+	background-color:#99CC99;
+	border-right: solid 1px #000000;
+}
+
+#shifts ul li.evenEndUser {
+	background-color:#CCFFCC;
+	border-right: solid 1px #000000;
+}
+
+
+#shifts ul li.eventop {
+	background-color:#CCCCFF;
+	border-top: solid 1px #000000;
+}
+
+#shifts ul li.oddtop {
+	background-color:#9999CC;
+	border-top: solid 1px #000000;
+}
+
+#shifts ul li.eventopend {
+	background-color:#CCCCFF;
+	border-top: solid 1px #000000;
+	border-right: solid 1px #000000;
+}
+
+#shifts ul li.oddtopend {
+	background-color:#9999CC;
+	border-top: solid 1px #000000;
+	border-right: solid 1px #000000;
+}
+
+#shifts ul li.cross {
+	background-color:#7777BB;
+	border-left: solid 1px #000000;
+	border-top: solid 1px #000000;
+}
+
+#shifts ul li.timetableusername {
+	color: #FFFFFF;
+	border-left: solid 1px #000000;
+	background-color:#7777BB;
+}
+
+#bottom-section {
+	clear: both;
+}

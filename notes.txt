@@ -1,0 +1,49 @@
+Try to keep at around 80 cols
+
+log in (DONE)
+log out (DONE)
+show time tables for week (DONE)
+highlight user shifts (DONE)
+navigate user time tables (DONE)
+display type of shift (floor, team leader etc) (DONE)
+
+allow managers to make new shifts [x]
+allow managers to edit shifts [x]
+allow managers to cancel shifts [x]
+provide input validation [x]
+
+TODO: check that shifts do not end before they start
+
+
+tally total user hours for each month
+tally total user hours for each week
+
+send messages between individual users [x]
+send messages to groups of users [on hold]
+send messages to all users [on hold]
+read messages sent to user [x]
+send users automated messages when their shifts have changed [x]
+
+allow users to display shifts they want to have taken by someone else
+	- modify shifts table to have col "BOOL wantRid"
+	- if the shift belongs to the user display a link to switch if they want rid of it or not.
+	- use ajax in js to check if wantRid = 1 [x]
+			-if so, display that shift in yellow. [x]
+			-if so, display a link allowing a user to request that shift (send message to mgrs of site) [x]
+			TODO : make PHP pages that links will point to (wantRidRequest.php, wantKeepRequest.php, wantTakeRequest.php).
+allow users to take on shifts other users want to have taken
+send managers automated messages about requests to take on shifts (these messages should be shared between all managers)
+
+
+request holiday time
+allow managers to approve holidays
+display remaining holiday time
+allow managers to allocate additional/remove existing holiday time
+allow managers to set universal holiday time (for stuff like christmas)
+allow managers to set rollover date for holidays
+
+allow managers to add new users
+allow managers to remove old users
+
+allow admins to read all messages and have all mgr privileges
+

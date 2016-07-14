@@ -1,0 +1,8 @@
+<?php
+/////////////////////////////////////////////////////////////////////////////80
+session_start();
+
+if(!(isset($_SESSION['loggedIn']))){
+	header("Location: login.php");
+}
+?>
